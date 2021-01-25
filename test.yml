@@ -1,6 +1,6 @@
 ---
 - hosts: redhatnode1
-  user: root
+  user: fayaz
   become: True
   tasks:
     - name: Install httpd package
